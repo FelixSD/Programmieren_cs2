@@ -1,0 +1,9 @@
+---- Sichtbarkeit ----
+- Wenn ich public von einer Variablendeklaration entferne, funktioniert das Programm weiterhin, da die Variable nun priavte ist und nur noch innerhalb der Klasse sichtbar
+- Protected: Sichtbarkeit ist auf eigene Klasse und Subklassen beschränkt 
+- Internal: Sichtbarkeit ist auf den momentanen Buildvorgang beschränkt
+- Public bei Klassen bedeutet, dass auf die Inhalte der Klasse von überall aus zugegriffen werden kann
+
+---- Structs vs. Klassen ---- 
+- Klassen sind Referenzdatentypen und Verweisen somit nur auf deren Inhalte (auch Arrays etc.) während Structs value Basiert sind und direkt den Inhalt speichern ohne Referenz
+- Unterschiede bei Vergleichen: Vergleicht man Referenzdatentypen vergleicht man nur deren Referenzen (direkter Vergleich) aber bei Structs die Werte direkt
